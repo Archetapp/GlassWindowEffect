@@ -14,6 +14,7 @@
 		2610D0352C92366400F1C990 /* GlassWindowEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610D0342C92366400F1C990 /* GlassWindowEffectTests.swift */; };
 		2610D03F2C92366400F1C990 /* GlassWindowEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610D03E2C92366400F1C990 /* GlassWindowEffectUITests.swift */; };
 		2610D0412C92366400F1C990 /* GlassWindowEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610D0402C92366400F1C990 /* GlassWindowEffectUITestsLaunchTests.swift */; };
+		2610D04F2C9254FD00F1C990 /* GlassWindowEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2610D04E2C9254FD00F1C990 /* GlassWindowEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2610D03E2C92366400F1C990 /* GlassWindowEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassWindowEffectUITests.swift; sourceTree = "<group>"; };
 		2610D0402C92366400F1C990 /* GlassWindowEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassWindowEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2610D04D2C92379D00F1C990 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2610D04E2C9254FD00F1C990 /* GlassWindowEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassWindowEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				2610D04D2C92379D00F1C990 /* Info.plist */,
 				2610D0222C92366300F1C990 /* GlassWindowEffectApp.swift */,
 				2610D0242C92366300F1C990 /* ContentView.swift */,
+				2610D04E2C9254FD00F1C990 /* GlassWindowEffect.swift */,
 				2610D0262C92366400F1C990 /* Assets.xcassets */,
 				2610D0282C92366400F1C990 /* GlassWindowEffect.entitlements */,
 				2610D0292C92366400F1C990 /* Preview Content */,
@@ -263,6 +266,7 @@
 			files = (
 				2610D0252C92366300F1C990 /* ContentView.swift in Sources */,
 				2610D0232C92366300F1C990 /* GlassWindowEffectApp.swift in Sources */,
+				2610D04F2C9254FD00F1C990 /* GlassWindowEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
