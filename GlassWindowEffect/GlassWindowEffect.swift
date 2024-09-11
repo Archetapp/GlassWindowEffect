@@ -109,14 +109,14 @@ struct GlassWindowView: View {
             GeometryReader { geometry in
                 ZStack {
                     RoundedRectangle(cornerRadius: 20)
-                        .fill(Material.thin)
+                        .fill(Material.ultraThin)
                         .overlay(
                             GlassEdgeGlow(lightPosition: clampedLightPosition)
                         )
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                     
                     RoundedRectangle(cornerRadius: 19)
-                        .fill(Material.thick)
+                        .fill(Material.regular)
                         .padding(1)
                     if showingBall {
                         Circle()
@@ -157,7 +157,7 @@ struct GlassEdgeGlow: View {
                             .clear,
                             .white.opacity(0.1),
                             .white.opacity(0.3),
-                            .white.opacity(0.9),
+                            .white.opacity(1.0),
                             .white.opacity(0.3),
                             .white.opacity(0.1),
                             .clear
