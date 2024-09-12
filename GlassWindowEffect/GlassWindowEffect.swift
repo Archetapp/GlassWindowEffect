@@ -39,8 +39,8 @@ class ARLightDetector: NSObject, ObservableObject {
         if let lightEstimate = frame.lightEstimate {
             if let directionalEstimate = lightEstimate as? ARDirectionalLightEstimate {
                 let direction = directionalEstimate.primaryLightDirection
-                let mirroredX = 1.0 - CGFloat(direction.x * 0.5 + 0.5)
-                let position = CGPoint(x: mirroredX, y: CGFloat(-direction.z * 0.5 + 0.5))
+                let position = CGPoint(x: CGFloat(direction.x * 0.5 + 0.5),
+                                       y: 1.0 - CGFloat(-direction.z * 0.5 + 0.5))
                 
                 lastValidPosition = position
                 DispatchQueue.main.async { self.lightPosition = position }
